@@ -1,0 +1,45 @@
+# EXP Normal drop amount multiplied by the value below.
+boost_one_exp_multiplication: 2
+boost_two_exp_multiplication: 3
+
+# Plugin picks a random number between (your number) and 1. The chance "4.0" would be a 1 in 4 chance.
+# This means the armor would take 25% less damage. The chance "2.0" is 1-2, and would be 50% less damage.
+fortify_one_value: 4.0
+fortify_two_value: 2.0
+
+# The damage value for glass in the Buy Gui. List of colors: http://minecraft-ids.grahamedgecombe.com/
+gui_glass_color: 9
+
+tier1_price: 30
+tier2_price: 60
+tier1_gui_item: "&b&lTier &bI"
+tier2_gui_item: "&b&lTier &bII"
+
+messages:
+    tier_one_name: "&b&l#enchant# &bI"
+    tier_two_name: "&b&l#enchant# &bII"
+    buy_enchant_gui_name: "&bBuy Enchants"
+    apply_success: "&b&lAscendPvP &7> Enchant successfully applied!"
+    name_help: "&7- Right click on a valid item to apply!"
+    not_enough_exp: "&b&lAscendPvP &7> You do not have enough EXP for that enchant!"
+    cant_apply: "&b&lAscendPvP &7> You can't apply that enchant to your item!"
+    stacked_enchant_item: "&b&lAscendPvP &7> Please unstack your enchant items!"
+    already_has_enchant: "&b&lAscendPvP &7> You already have that enchant!"
+    enchant_already_applied: "&b&lAscendPvP &7> You already have that enchant!"
+    click_to_buy_tier1: "&7Click to buy Tier I enchant. Price: &b#tier1Price# Levels"
+    click_to_buy_tier2: "&7Click to buy Tier II enchant. Price: &b#tier2Price# Levels"
+    incorrect_syntax: "&b&lAscendPvP &7> Incorrect syntax! Try: /enchants"
+    incorrect_syntax_give: "&b&lAscendPvP &7> Incorrect syntax! Try: &b/godpick&7|&b/obbypick&7|&b/trenchpick&7|&b/sonicboots &7[name]"
+    player_not_online_give: "&b&lAscendPvP &7> &b#selectedPlayer# &7Is not online!"
+    no_inv_space: "&b&lAscendPvP &7> You you must have an empty inventory slot!"
+    no_inv_space_give: "&b&lAscendPvP &7> You did not have an open inventory slot! Dropping &b#givenItem# on the ground!"
+    give_item_success: "&b&lAscendPvP &7> Successfully gave &b#selectedPlayer# &7a &b#givenItem#&7!"
+    tier1_purchase_success: "&b&lAscendPvP &7> You successfully purchased a &bTier I &7Enchant!"
+    tier2_purchase_success: "&b&lAscendPvP &7> You successfully purchased a &bTier II &7Enchant!"
+    reload_success: "&b&lAscendPvP &7> ASCEnchants reloaded successfully!"
+    incorrect_syntax_reload: "&b&lAscendPvP &7> Incorrect syntax! Try: &b/ascenchants reload"
+    sonicboots_name: "&b&lSonic &7Boots"
+    godpick_name: "&b&lGod &7Pickaxe"
+    obbypick_name: "&b&lObby &7Pickaxe"
+    trenchpick_name: "&b&lTrench &7Pickaxe"
+    harvesthoe_name: "&b&lHarvester &7Hoe"

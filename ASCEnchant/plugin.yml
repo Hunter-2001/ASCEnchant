@@ -1,0 +1,13 @@
+name: ASCEnchant
+main: com.ascendpvp.ASCEnchantMain
+version: 1.0
+author: Str8
+
+commands:
+    enchants:
+    godpick:
+    trenchpick:
+    obbypick:
+    sonicboots:
+    ascenchants:
+    harvesthoe:
